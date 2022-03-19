@@ -12,6 +12,10 @@
     box-shadow: 0 0 10px 5px rgba(58, 58, 70, 0.2);
 }
 
+.container:hover {
+    cursor: pointer;
+}
+
 .left {
     display: grid;
     grid-template-columns: min-content min-content;
@@ -38,4 +42,9 @@
 
 .highlightColor {
     color: #f5f3a1;
+}
+
+.star {
+    display: flex;
+    align-items: center;
 }
