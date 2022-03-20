@@ -1,7 +1,10 @@
+/* starBgColor: #f7f6fd */
+/* cookieBgColor: #181a20 */
+
 .container {
     display: grid;
     justify-content: center;
     align-items: center;
-    background-color: #181a20;
+    background-color: #f7f6fd;
     height: 100vh;
 }
