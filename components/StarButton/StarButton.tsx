@@ -1,7 +1,7 @@
-import { forwardRef, useState } from "react";
-import styles from "./StarButton.module.css";
-import { AiFillStar } from "react-icons/ai";
 import { motion } from "framer-motion";
+import { useState } from "react";
+import { AiFillStar } from "react-icons/ai";
+import styles from "./StarButton.module.css";
 
 const StarButton = () => {
     const [count, setCount] = useState(23);
