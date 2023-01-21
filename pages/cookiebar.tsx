@@ -1,8 +1,8 @@
-import type { NextPage } from "next";
+import { NextPage } from "next";
 import CookieBar from "../components/CookieBar";
 import styles from "../styles/Home.module.css";
 
-const Home: NextPage = () => {
+const CookieBarPage: NextPage = () => {
     return (
         <div className={styles.container}>
             <CookieBar />
@@ -10,4 +10,4 @@ const Home: NextPage = () => {
     );
 };
 
-export default Home;
+export default CookieBarPage;
