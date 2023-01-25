@@ -5,6 +5,11 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    background-color: #f7f6fd;
     height: 100vh;
+}
+
+.navigationContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
 }
